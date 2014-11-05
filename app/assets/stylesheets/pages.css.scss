@@ -52,6 +52,7 @@ header.header-bg{
 .iphone-image-div{
 	width: 50%;
 	float: left;
+	position: relative;
 	img{
 		width: 100%;
 	}
@@ -97,6 +98,17 @@ header.header-bg{
 		background-color: #f26c4f;
 	}
 }
+
+.iphone-video{
+position: absolute;
+top: 20px;
+width: 75%;
+height: 73%;
+z-index: 2;
+top: 13%;
+left: 12.5%;
+}
+
 
 footer{
 	position: fixed;

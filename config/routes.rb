@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'pages/index'
     get '/contact', :to => 'pages#contact', :as => 'contact'
+    get '/testapp', :to => 'pages#testapp', :as => 'testapp'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
