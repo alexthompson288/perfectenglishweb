@@ -57,7 +57,7 @@ header.header-bg{
 		width: 100%;
 	}
 	@media (max-width: 960px) {
-      width: 100%;
+      width: 90%;
       padding: 20px;
       float: none;
     }
@@ -70,7 +70,7 @@ header.header-bg{
 		text-align: left;
 	}
 	@media (max-width: 960px) {
-      width: 100%;
+      width: 90%;
       padding: 20px;
       float: none;
     }
@@ -107,6 +107,10 @@ height: 73%;
 z-index: 2;
 top: 13%;
 left: 12.5%;
+@media (max-width: 960px) {
+      height: 70%;
+      top: 15%;
+    }
 }
 
 
